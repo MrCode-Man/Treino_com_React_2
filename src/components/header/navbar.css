@@ -1,0 +1,21 @@
+.navBar {
+    list-style: none;
+    z-index: 20;
+    position: relative;
+
+}
+
+ul {
+    display: flex;
+    gap: .19rem;
+}
+
+.linkNavBar {
+    text-decoration: none;
+    color: white;
+    background-color: #1798E8;
+    border-radius: 100px;
+    display: inline-block;
+    padding: .41rem 1rem;
+    font-size: 1.5rem;
+}

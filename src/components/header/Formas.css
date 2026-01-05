@@ -1,0 +1,68 @@
+.container {
+    container-type: inline-size;
+    width: 100%;
+    position: absolute;
+    height: 61vh;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+
+}
+
+.shapes {
+    position: absolute;
+    width: 950px;
+    height: 200px;
+
+    top: 0;
+    left: 30%;
+    transform: translateX(-30%);
+}
+
+.shape {
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+
+.shape[style*="rgb(23, 152, 232)"], .s1, .s3, .s9, .s10, .s13 { background-color: rgb(23, 152, 232); }
+.shape[style*="rgb(255, 190, 255)"], .s2, .s6, .s11, .s14 { background-color: rgb(255, 190, 255); }
+.shape[style*="rgb(255, 229, 0)"], .s4, .s5, .s7, .s8, .s12 { background-color: rgb(255, 229, 0); }
+
+.shape--square {
+    width: 13cqw;
+    height: 13cqw;
+    border-radius: 4cqw;
+}
+
+.shape--stick {
+    width: 18cqw;
+    height: 4.4cqw;
+}
+
+.shape--circle {
+    width: 11cqw;
+    height: 11cqw;
+    border-radius: 50%;
+}
+
+.shape--half-circle {
+    width: 18cqw;
+    height: 10cqw;
+    border-radius: 18cqw 18cqw 0 0;
+}
+
+.s1  { transform: translate(10px, -5.17cqw) rotate(-60deg) scale(1.1); }
+.s2  { transform: translate(80px, -2.97cqw) rotate(90deg) scale(1.1); }
+.s3  { transform: translate(150px, -0.67cqw) rotate(150deg) scale(1.1); }
+.s4  { transform: translate(220px, -1.91cqw) rotate(90deg) scale(1.1); }
+.s5  { transform: translate(290px, 2.51cqw) rotate(-90deg) scale(1.1); }
+.s6  { transform: translate(360px, -5.35cqw) rotate(-90deg) scale(1.1); }
+.s7  { transform: translate(430px, -0.98cqw) rotate(90deg) scale(1.1); }
+.s8  { transform: translate(500px, -5.22cqw) rotate(180deg) scale(1.1); }
+.s9  { transform: translate(570px, -2.41cqw) rotate(-60deg) scale(1.1); }
+.s10 { transform: translate(640px, -3.03cqw) rotate(-150deg) scale(1.1); }
+.s11 { transform: translate(710px, 1.86cqw) rotate(-120deg) scale(1.1); }
+.s12 { transform: translate(780px, -3.60cqw) rotate(-30deg) scale(1.1); }
+.s13 { transform: translate(850px, -0.50cqw) rotate(-90deg) scale(1.1); }
+.s14 { transform: translate(920px, -2.54cqw) rotate(-30deg) scale(1.1); }
