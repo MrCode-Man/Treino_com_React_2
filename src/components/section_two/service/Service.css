@@ -14,4 +14,29 @@ section h2 {
     padding-right: 2rem;
 }
 
+.botao_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: .5rem;
+}
+
+.link_botao {
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #FFE500;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    background-color: #3D2D33;
+
+    border-radius: 4rem;
+
+    padding: 1rem 1.5rem;
+}
+
 
