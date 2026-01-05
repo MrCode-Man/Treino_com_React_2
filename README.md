@@ -26,6 +26,22 @@ npm install
 npm run dev
 ```
 
+O seu terminal vai mostrar uma linha como essa:
+
+```
+> desculpaif@0.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 474 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+```
+
+Segure `Ctrl` e aperte nesse http mostrado no terminal com o mouse e você vai ser direcionado para o site criado a partir do código.
+
 ---
 
 ### Editor de Código
