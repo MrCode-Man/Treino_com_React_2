@@ -1,13 +1,11 @@
 .container {
     container-type: inline-size;
-    width: 100%;
+    width: 90%;
     position: absolute;
     height: 61vh;
     z-index: 0;
     pointer-events: none;
     overflow: hidden;
-
-
 }
 
 .shapes {
@@ -15,8 +13,7 @@
     width: 950px;
     height: 200px;
 
-    top: 0;
-    left: 30%;
+    left: 27%;
     transform: translateX(-30%);
 }
 
