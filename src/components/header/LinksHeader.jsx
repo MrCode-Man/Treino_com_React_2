@@ -1,4 +1,4 @@
-import './navbar.css'
+import './LinksHeader.css'
 
 function LinksHeader() {
     return (
