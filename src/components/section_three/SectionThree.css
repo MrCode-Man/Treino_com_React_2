@@ -1,3 +1,11 @@
 .SectionThree {
     background-color: #DEE2E4;
+
+    margin-top: -45px;
+    height: 420px;
+
+    position: relative;
+    z-index: 4;
+
+    border-radius: 50px 50px 0 0;
 }

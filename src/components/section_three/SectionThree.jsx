@@ -1,6 +1,6 @@
-import './Section_three.css'
+import './SectionThree.css'
 
-function Section_three() {
+function SectionThree() {
     return (
         <section className='SectionThree'>
 
@@ -8,4 +8,4 @@ function Section_three() {
     )
 }
 
-export default Section_three;
+export default SectionThree;
