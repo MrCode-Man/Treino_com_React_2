@@ -6,7 +6,12 @@ function SectionThree() {
     return (
         <section className='SectionThree'>
             <h2 className="titulo_section_three">FAQ</h2>
-            <FAQ titulo={palavras[0][0]} descricao={palavras[0][1]}/>
+
+            <div className="agrupamento_section_three">
+                {palavras.map((item, index) => (
+                    <FAQ key={index} titulo={item[0]} descricao={item[1]} />
+                ))}
+            </div>
         </section>
     )
 }
