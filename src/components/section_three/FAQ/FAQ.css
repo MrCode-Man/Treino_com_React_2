@@ -1,12 +1,13 @@
 .FAQ_container {
     width: 100%;
     border-radius: 20px;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.FAQ_container:hover {
-    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.28);
+.FAQ_container:not(.selecionado):hover {
     overflow: hidden;
+    box-shadow: 3px 8px 15px rgba(0, 0, 0, 0.18);
+    transform: translateY(-3px);
 }
 
 .sumario {
@@ -20,9 +21,25 @@
     font-size: 2.1rem;
 }
 
-.descricao {
+
+/*
+ mexendo nas divs que js altera
+*/
+
+.selecionado {
+    transform: translateY(5px);
+    overflow: hidden;
+    box-shadow: 3px 8px 15px rgba(0, 0, 0, 0.18);
+}
+
+.esconde {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mostra {
     width: 100%;
     background-color: #DEE2E4;
     padding: 30px;
-
 }
