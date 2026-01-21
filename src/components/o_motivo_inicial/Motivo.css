@@ -1,0 +1,37 @@
+.biblical_section {
+    background-color: #506C64;
+
+    position: relative;
+    z-index: 5;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+
+    height: auto;
+
+    margin-top: -50px;
+    padding: 100px 50px 50px 50px;
+
+    border-radius: 50px 50px 0 0;
+}
+
+.text_section {
+    width: 690px;
+
+    line-height: 1.8;
+}
+
+.biblical_text {
+    text-align: justify;
+
+    color: #DEE2E4;
+}
+
+.foto_Jesus {
+    width: 500px;
+    height: auto;
+
+    border-radius: 20px;
+}
