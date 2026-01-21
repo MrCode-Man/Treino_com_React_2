@@ -1,7 +1,7 @@
 import './Cabecalho.css'
-import design from '../../assets/icons/ideia.svg'
 import LinksHeader from './LinksHeader.jsx'
-import Formas from "./Formas.jsx";
+import design      from '../../assets/icons/ideia.svg'
+import Formas      from "./Formas.jsx";
 
 function Cabecalho() {
     return (
